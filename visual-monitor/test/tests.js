@@ -70,11 +70,6 @@ describe('Visual monitor testing', function() {
             // Brands list.
             '.brands-list li img'
           ],
-        remove:
-          [
-
-          ],
-        hide: [],
         screenWidth: selectedCaps == 'chrome' ? [960] : undefined,
       }, resultsCallback)
       .call(done);
